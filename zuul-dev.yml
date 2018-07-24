@@ -4,7 +4,7 @@ zuul:
     project-user: /project/**
     project-config: /config/**
    #设置所有服务都可传递cookie
-  ignore-security-headers:
+  ignore-security-headers: true
       #排除某些路由
 #    ignored-patterns:
 #    - /**/product/listForOrder
